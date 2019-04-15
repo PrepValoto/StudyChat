@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.11/js/all.js"></script>
+  <link href="./css/home.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class = "modal-content2 text-center ">
+    <div class="col-sm-20 ">
+      <ul class="nav nav-pills link">
+        <li class="active link"><a href="#">Home</a></li>
+        <li class="link"><a href="#">About</a></li>
+        <li class="link"><a href="#">Contacts</a></li>
+        <li class="link"><a href="#">Documentation</a></li>
+      </ul>
+    </div>
+
+    <div class="col-sm-20 ">
+      <div  class="modal-content">
+        <form class="col-16 form-inline main-section" action="http://localhost:8080/">
+
+          <div class="form-group">
+            <i class="fas fa-user-graduate"></i><input type="text" class="form-control"  placeholder="Username">
+          </div>
+
+          <div class="form-group">
+            <i class="fas fa-user-graduate"></i><input type="password" class="form-control"  placeholder="Password" >
+          </div>
+
+          <button type="submit" class="btn btnPadding">
+            <i class="fas fa-unlock"></i>
+              Log In
+          </button>
+
+        </form>
+
+        <div class="col-14 forgot ">
+          <a href="#" class="forgotpass">Forgot Password?</a>
+        </div>
+      </div>
+    </div>
+
+<!-- Registration Form-->
+    <div>
+      <div>
+
+        <div class="col-sm-6 div-right ">
+
+          <div  class="modal-content ">
+            <form class="col-8 main-section">
+
+              <h2 class="reg">Registration Form</h2>
+
+              <div class="form-group">
+                <i class="fas fa-user-graduate"></i>
+                <input type="text" class="form-control"  placeholder="Enter your Username" >
+              </div>
+
+              <div class="form-group">
+                <i class="fas fa-user-graduate"></i>
+                <input type="password" class="form-control"  placeholder="Enter your Password" >
+              </div>
+
+              <div class="form-group gender">
+                <i class="fas fa-venus-mars"></i>
+                <label>Gender:
+                  <input type="radio" name="gender" value="male"> Male
+                  <input type="radio" name="gender" value="female">Female<br>
+                </label>
+              </div>
+
+              <div class="form-group">
+                <i class="far fa-calendar-alt"></i>
+                <input type="Date" name="bday">
+              </div>
+
+              <button type="submit" class="btn">
+                <i class="fas fa-unlock"></i>
+                Register
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
